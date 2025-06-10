@@ -72,7 +72,7 @@ Testado nas seguintes larguras:
 
 ## 🔗 Links
 
-* Preview online (se já hospedado): `https://…`
+* ![Image](https://github.com/user-attachments/assets/bdeafc22-f198-47f6-8943-6242b1820f5a)
 * Desafio original: [devChallenges: Apple Shop Checkout Page](https://devchallenges.io/challenge/apple-shop-checkout-page-challenge)
 
 ---
