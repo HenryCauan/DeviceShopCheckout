@@ -1,9 +1,5 @@
 'use client'
-
 import { useState } from "react";
-import Iphone from '../assets/Gold@2x.png'
-import Watch from '../assets/Apple-watchx2.png'
-import iMac from '../assets/iMac@2x.png'
 
 interface NamesCheckout {
     img: string;
@@ -20,7 +16,6 @@ interface ItensCheckoutProps extends NamesCheckout {
 const ItensCheckout: React.FC<ItensCheckoutProps> = ({ img, name, color, price, stock, onRemove }) => {
 
     const [isOnMenu, setIsOnMenu] = useState(true);
-    const [isValue, setIsValue] = useState({price})
 
     return (
         <>
