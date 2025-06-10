@@ -1,8 +1,4 @@
-Aqui está um **README.md** sugerido para o seu projeto **DeviceShopCheckout**, adaptado ao desafio da devChallenges:
 
----
-
-```markdown
 # DeviceShopCheckout 🛒
 
 Checkout Page - desafio da devChallenges.io
@@ -51,7 +47,6 @@ Testado nas seguintes larguras:
    ```bash
    git clone https://github.com/HenryCauan/DeviceShopCheckout.git
    cd DeviceShopCheckout
-````
 
 2. Abra o arquivo `index.html` em seu navegador (Chrome, Firefox, Edge).
 
@@ -83,15 +78,7 @@ Adoraria feedback e sugestões! 😊
 
 ```
 
----
 
-### Sugestões extras (caso queira aprimorar):
-
-- 🔧 **Form validation avançada** com JavaScript.
-- 🎛️ **Modo claro/escuro** via CSS custom properties.
-- 📍 **Indicador de passo** (Progress Bar) para melhorar experiência de checkout.
-- 🌐 **Internacionalização**: troca de formatos de moeda.
-- 📦 **Deploy**: usar GitHub Pages ou Vercel e incluir link no README.
 
 Se quiser, posso ajudar com exemplo de deploy, scripts ou refinamento do CSS. É só me chamar!
 ::contentReference[oaicite:0]{index=0}
