@@ -40,11 +40,11 @@ const Information = () => {
                         onChange={(e) => setEmail(e.target.value)}
                     />
                 </label>
-                <div className="w-full flex gap-8">
+                <div className="w-full flex md:flex-row flex-col gap-8">
                     <label htmlFor="" className="flex flex-col flex-1 font-semibold">
                         <h1>Country</h1>
                         <select
-                            className="flex-1 relative bg-[color:#e6e7eb] rounded-[10px] border-2 border-gray-400 h-16 mt-4 placeholder:font-normal pl-4 focus:outline-none"
+                            className="flex-1 relative bg-[color:#e6e7eb] rounded-[10px] border-2 border-gray-400 h-16 mt-4 placeholder:font-normal py-5 pl-4 focus:outline-none"
                             value={country}
                             onChange={(e) => setCountry(e.target.value)}
                         >
@@ -59,7 +59,7 @@ const Information = () => {
                     <label htmlFor="" className="flex flex-col flex-1 font-semibold">
                         <h1>Postal Code</h1>
                         <input
-                            className="flex-1 relative bg-[color:#e6e7eb] rounded-[10px] border-2 border-gray-400 h-16 mt-4 placeholder:font-normal pl-4 py-5 focus:outline-none"
+                            className="flex-1 w-full relative bg-[color:#e6e7eb] rounded-[10px] border-2 border-gray-400 h-16 mt-4 placeholder:font-normal pl-4 py-5 focus:outline-none"
                             type="text"
                             inputMode="numeric"
                             pattern="[0-9]*"

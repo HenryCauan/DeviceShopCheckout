@@ -104,7 +104,7 @@ export const LayoutItens = () => {
                 <div className="relative">
                     <div className="w-full flex gap-4 border-t-2 border-gray-300 pt-12 mb-6">
                         <input className="flex-1 py-3 bg-white border-2 border-gray-300 rounded-[10px] p-4" type="text" placeholder="Enter coupon code" />
-                        <button className="py-5 px-5 bg-[color:#1d1d1f] rounded-[10px] text-white">Apply Coupon</button>
+                        <button className="w-auto py-5 px-5 bg-[color:#1d1d1f] rounded-[10px] text-white">Apply Coupon</button>
                     </div>
                     <div className="flex flex-col gap-2 text-lg font-semibold text-gray-700">
                         <label className="w-full flex justify-between">
