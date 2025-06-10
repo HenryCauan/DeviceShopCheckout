@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Aqui está um **README.md** sugerido para o seu projeto **DeviceShopCheckout**, adaptado ao desafio da devChallenges:
 
-## Getting Started
+---
 
-First, run the development server:
+```markdown
+# DeviceShopCheckout 🛒
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Checkout Page - desafio da devChallenges.io
+
+## 🚀 Descrição
+
+Este projeto consiste em recriar fielmente o design de uma página de checkout de uma loja de dispositivos da Apple, segundo o desafio [“Apple Shop Checkout Page Challenge”](https://devchallenges.io/challenge/apple-shop-checkout-page-challenge) da devChallenges.io. O layout foi implementado utilizando **HTML**, **CSS** (flexbox), e design responsivo.
+
+## 🎯 Objetivos
+
+- Reproduzir a interface visual proposta (cores, tipografia, espaçamentos, ícones).
+- Estruturar em duas seções principais:
+  1. **Resumo dos itens** (imagem, nome, cor, preço, botão de remover).
+  2. **Formulário de checkout** (subtotal, taxa, total, informações de contato com validação simples).
+- Garantir responsividade para dispositivos mobile até desktop.
+
+## 📁 Estrutura do projeto
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+DeviceShopCheckout/
+├── design/             ← Assets de design (layout JPG ou Figma)
+├── resources/          ← Imagens (produtos, ícones, botões)
+├── index.html          ← Marcações HTML da página
+├── styles.css          ← Estilização e responsividade
+└── README.md           ← Documentação do projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧰 Tecnologias usadas
 
-## Learn More
+- **HTML5** – Estrutura semântica da página.
+- **CSS3** – Cabeçalhos, layout com flexbox, responsividade.
+- **Mobile-first** – Adaptação responsiva via media queries.
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Responsividade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Testado nas seguintes larguras:
+- **320px a 480px**: visualização móvel otimizada.
+- **481px a 768px**: versão tablet (meio a meio colunas).
+- **769px+**: layout desktop com colunas laterais.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Como executar
 
-## Deploy on Vercel
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/HenryCauan/DeviceShopCheckout.git
+   cd DeviceShopCheckout
+````
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Abra o arquivo `index.html` em seu navegador (Chrome, Firefox, Edge).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Opcional: hospede com GitHub Pages, Vercel, Netlify, etc.
+
+## 🧩 Recursos
+
+* Assets em `resources/` (imagens otimizadas).
+* Exemplo de validação com `required` no formulário.
+* Comentários no CSS e HTML explicando decisões do layout.
+
+## 🎓 Aprendizados
+
+* Técnicas de design visual para replicar designs pixel-perfect.
+* Domínio de **Flexbox** e estratégias de layout em CSS.
+* Noções de usabilidade de formulários de checkout.
+* Prática com responsividade seguindo metodologia **mobile-first**.
+
+## 🔗 Links
+
+* ![Image](https://github.com/user-attachments/assets/bdeafc22-f198-47f6-8943-6242b1820f5a)
+* Desafio original: [devChallenges: Apple Shop Checkout Page](https://devchallenges.io/challenge/apple-shop-checkout-page-challenge)
+
+---
+
+<br>Feito com 💚 por **HenryCauan**.
+Projetado para aprimorar minhas habilidades em UI/UX, CSS layout e responsividade.
+Adoraria feedback e sugestões! 😊
+
+```
+
+---
+
+### Sugestões extras (caso queira aprimorar):
+
+- 🔧 **Form validation avançada** com JavaScript.
+- 🎛️ **Modo claro/escuro** via CSS custom properties.
+- 📍 **Indicador de passo** (Progress Bar) para melhorar experiência de checkout.
+- 🌐 **Internacionalização**: troca de formatos de moeda.
+- 📦 **Deploy**: usar GitHub Pages ou Vercel e incluir link no README.
+
+Se quiser, posso ajudar com exemplo de deploy, scripts ou refinamento do CSS. É só me chamar!
+::contentReference[oaicite:0]{index=0}
+```
