@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DeviceShopCheckout 🛒
 
-## Getting Started
+Checkout Page - desafio da devChallenges.io
 
-First, run the development server:
+## 🚀 Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto consiste em recriar fielmente o design de uma página de checkout de uma loja de dispositivos da Apple, segundo o desafio [“Apple Shop Checkout Page Challenge”](https://devchallenges.io/challenge/apple-shop-checkout-page-challenge) da devChallenges.io. O layout foi implementado utilizando **HTML**, **CSS** (flexbox), e design responsivo.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Objetivos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Reproduzir a interface visual proposta (cores, tipografia, espaçamentos, ícones).
+- Estruturar em duas seções principais:
+  1. **Resumo dos itens** (imagem, nome, cor, preço, botão de remover).
+  2. **Formulário de checkout** (subtotal, taxa, total, informações de contato com validação simples).
+- Garantir responsividade para dispositivos mobile até desktop.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Estrutura do projeto
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
